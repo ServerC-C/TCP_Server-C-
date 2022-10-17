@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\SauradipServer\SauradipServer\main.cpp(7,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  SauradipServer.vcxproj -> D:\SauradipServer\x64\Debug\SauradipServer.exe
