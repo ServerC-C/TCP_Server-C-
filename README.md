@@ -1,7 +1,4 @@
 # TCP server
-
- English
-
 ## Introduction
 
 This software package is a TCP server that supports multi-client connection and communication. Using a simple API, you can create a server and communicate with different clients.
