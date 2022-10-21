@@ -1,6 +1,5 @@
 # TCP server
 ## Introduction
-
 This software package is a TCP server that supports multi-client connection and communication. Using a simple API, you can create a server and communicate with different clients.
 
 This server has the following characteristics:
@@ -9,9 +8,7 @@ This server has the following characteristics:
 - Multiple network card support, support binding to specific IP
 - Support blocking reception and non-blocking notification callback reception.
 - Support independent exchange of data with different clients.
-
 ## Instructions for use
-
 ### Dependence
 
 - RT-Thread 3.1.0+
@@ -183,14 +180,8 @@ The software package comes with a sample program for the echo server. After open
 Compile, download and run, there will be two commands, `tcpserver` and `tcpserver_stop`. They are creating TCP server and closing TCP server.
 
 First enter the IP address and port number to create a server, and then you can use the network debugging assistant to communicate with this server. Enter `tcpserver_stop` to shut down the server.
-
-
 ## Precautions
-
 - The timeout mechanism of the tcpserver_send function has not been implemented yet
 - If the number of supported clients has not been reached, but the total connection is wrong, it may be limited by lwip.
-
 ## contact information
-
 -Sauradip Ghsoh 
-
